@@ -18,6 +18,7 @@ function Todo() {
   }
 
 
+  
   const addTodo = () => {
     if (todo.trim() !== '') {
       setTodos([...todos, {list : todo , id : Date.now() , status : false }]);
