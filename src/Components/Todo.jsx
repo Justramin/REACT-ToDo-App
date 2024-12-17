@@ -17,7 +17,6 @@ function Todo() {
     e.prevevtDefault();
   }
 
-
   
   const addTodo = () => {
     if (todo.trim() !== '') {
